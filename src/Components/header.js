@@ -33,8 +33,11 @@ class Header extends Component {
               <Nav.Link className="mr-sm-3 ml-sm-3" href="#gallery">
                 Committee
               </Nav.Link>
-              <Nav.Link className="ml-sm-3" href="#gallery">
+              <Nav.Link className="mr-sm-3 ml-sm-3" href="#gallery">
                 Contact Us
+              </Nav.Link>
+              <Nav.Link className="ml-sm-3" href="#gallery">
+                #YWNWA
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
