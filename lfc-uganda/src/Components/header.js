@@ -1,23 +1,25 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, Form, Button, FormControl } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 class Header extends Component {
-    render() {
-        return (
-            <Navbar sticky="top" bg="primary" variant="dark">
-            <Navbar.Brand href="#home">LFC</Navbar.Brand>
+  render() {
+    return (
+      <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" sticky="top">
+        <Container>
+          <Navbar.Brand href="#">Liverpool Fun Club Uganda</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#fixtures">Fixtures</Nav.Link>
-              <Nav.Link href="#gallery">Results</Nav.Link>
+            </Nav>
+            <Nav className="mr-sm-2">
+              <Nav.Link href="#about">Who we Are</Nav.Link>
               <Nav.Link href="#gallery">Gallery</Nav.Link>
             </Nav>
-            <Form inline>
-              <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-              <Button variant="outline-light">Search</Button>
-            </Form>
-          </Navbar>
-        );
-    }
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    );
+  }
 }
 
 export default Header;
