@@ -22,6 +22,9 @@ class Hero extends Component {
                 src={content.image}
                 alt={content.alt}
               />
+              <Carousel.Caption>
+                <h1 className="caption-heading py-4">{content.title}</h1>
+              </Carousel.Caption>
             </Carousel.Item>
           ))}
         </Carousel>
