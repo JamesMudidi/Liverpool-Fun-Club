@@ -1,11 +1,6 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import Home from './Home/home'
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Home/home";
 
 export default function App() {
   return (
@@ -19,7 +14,7 @@ export default function App() {
           of them to render at a time
         */}
         <Switch>
-        <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/about" />
           <Route path="/dashboard" />
         </Switch>

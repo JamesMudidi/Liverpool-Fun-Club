@@ -1,0 +1,39 @@
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+$font-stack: 'Source Sans Pro', sans-serif;
+$primary-color: #333;
+$white-color: #ffffff;
+$grey-color: #f2f2f2;
+$liverpool-red: #dc0714;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  font-size: 1.2rem;
+  letter-spacing: 0.025rem;
+}
+
+.navbar {
+  background: $liverpool-red;
+}
+
+.nav-link {
+  color: $grey-color;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: $white-color;
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  border: 2px solid;
+  border-color: $white-color;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
