@@ -25,7 +25,7 @@ class Map extends Component {
                     <div>
                         <img src="images/pointer.png" alt="pointer" />
                         <strong>
-                            Arena Sports Lounge
+                            Arena Sports Bar and lounge
                         </strong>
                     </div>
                 </Marker>
