@@ -32,7 +32,7 @@ const Stars = () => {
             Join us for special screenings every match day at{" "}
             <strong>Arena Sports Bar and lounge</strong>.
           </h1>
-          <a href="/certificate" className="btn-red-red my-5 btn btn-primary">
+          <a href="/about" className="btn-red-red my-5 btn btn-primary">
             Find location
           </a>
         </div>
