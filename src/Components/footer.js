@@ -18,13 +18,8 @@ const Footer = () => {
           <a href="/contact" className="footer-link mr-sm-3 ml-sm-3">
             Contact Us
           </a>
-          <a
-            href="https://twitter.com/LFC"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="footer-link mr-sm-3 ml-sm-3"
-          >
-            #YWNWA
+          <a href="https://twitter.com/LFC" target="_blank" rel="noopener noreferrer" className="footer-link mr-sm-3 ml-sm-3">
+            #YNWA
           </a>
         </div>
         <div className="footer-social" align="center">

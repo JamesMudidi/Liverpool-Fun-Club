@@ -35,7 +35,7 @@ class Header extends Component {
                 target="_blank"
                 href="https://twitter.com/LFC"
               >
-                #YWNWA
+                #YNWA
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
