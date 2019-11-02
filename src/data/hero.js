@@ -1,16 +1,16 @@
 export const heroContent = [
   {
-    title: "#YWNWA",
-    image: "images/lfc-team.png",
+    title: "#YNWA",
+    image: "images/lfc-team.jpeg",
     alt: "liverpool fc mens team"
   },
   {
-    title: "#YWNWA",
+    title: "#YNWA",
     image: "images/lfc-team-women.png",
     alt: "liverpool fc womens team"
   },
   {
-    title: "#YWNWA",
+    title: "#YNWA",
     image: "images/fans-at-anfield.png",
     alt: "liverpool fans at anfield"
   }

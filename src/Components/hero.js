@@ -12,21 +12,29 @@ class Hero extends Component {
   }
 
   render() {
+    const slide = () => {
+      return this.state.contents.map((content, index) => {
+        const slideImage = content.image;
+        const styles = {
+          backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${slideImage})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "50% 50%"
+        };
+        return (
+          <Carousel.Item style={styles}>
+            <Carousel.Caption>
+              <h1 className="caption-heading py-3">{content.title}</h1>
+            </Carousel.Caption>
+          </Carousel.Item>
+        );
+      });
+    };
+
     return (
       <div className="hero-carousel">
         <Carousel fade="true" interval="2000" className="carousel h-5">
-          {this.state.contents.map((content, index) => (
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={content.image}
-                alt={content.alt}
-              />
-              <Carousel.Caption>
-                <h1 className="caption-heading py-4">{content.title}</h1>
-              </Carousel.Caption>
-            </Carousel.Item>
-          ))}
+          {slide()}
         </Carousel>
       </div>
     );
