@@ -15,10 +15,10 @@ const Footer = () => {
           <a href="/" className="footer-link mr-sm-3 ml-sm-3">
             Committee
           </a>
-          <a href="/" className="footer-link mr-sm-3 ml-sm-3">
+          <a href="/contact" className="footer-link mr-sm-3 ml-sm-3">
             Contact Us
           </a>
-          <a href="/" className="footer-link mr-sm-3 ml-sm-3">
+          <a href="https://twitter.com/LFC" target="_blank" className="footer-link mr-sm-3 ml-sm-3">
             #YWNWA
           </a>
         </div>
