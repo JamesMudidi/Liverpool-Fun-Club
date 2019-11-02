@@ -21,7 +21,7 @@ class Header extends Component {
               <Nav.Link className="mr-sm-3 ml-sm-3" href="/">
                 Home
               </Nav.Link>
-              <Nav.Link className="mr-sm-3 ml-sm-3" href="/">
+              <Nav.Link className="mr-sm-3 ml-sm-3" href="/membership">
                 Membership
               </Nav.Link>
               <Nav.Link className="mr-sm-3 ml-sm-3" href="/">

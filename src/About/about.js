@@ -17,7 +17,7 @@ const About = () => {
         <div className="hero-image-section">
           <div className="hero-image-about-us" style={styles}>
             <div className="hero-text">
-              <h1 className="hero-heading">About Us</h1>
+              <h1 className="hero-heading">Who We Are</h1>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@ const About = () => {
                 The <strong>Official Liverpool Football Club </strong>
                 supporters in <strong>Uganda </strong>
                 is made up of <strong>Kopites</strong> located in Uganda.
-                Members meet at <strong>Arena sports lounge </strong>
+                Members meet at <strong>Arena Sports Bar and lounge </strong>
                 located <strong>on 8 Bukoto St, Kampala</strong> for
                 match viewing and have a bond as a family.
               </p>
