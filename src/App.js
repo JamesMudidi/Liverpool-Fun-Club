@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home/home";
 import Contact from "./Contact/contact";
 import Certificate from "./Certificate/certificate";
+import About from "./About/about";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route exact path="/" component={Home} />
           <Route path="/contact" component={Contact} />
           <Route path="/certificate" component={Certificate} />
+          <Route path="/about" component={About} />
         </Switch>
       </div>
     </Router>
