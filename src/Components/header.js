@@ -4,13 +4,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 class Header extends Component {
   render() {
     return (
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        bg=""
-        variant=""
-        className="py-2"
-      >
+      <Navbar collapseOnSelect expand="lg" bg="" variant="" className="py-0">
         <Container>
           <Navbar.Brand href="/">
             <img
@@ -36,7 +30,11 @@ class Header extends Component {
               <Nav.Link className="mr-sm-3 ml-sm-3" href="/contact">
                 Contact Us
               </Nav.Link>
-              <Nav.Link className="ml-sm-3" target="_blank" href="https://twitter.com/LFC">
+              <Nav.Link
+                className="ml-sm-3"
+                target="_blank"
+                href="https://twitter.com/LFC"
+              >
                 #YWNWA
               </Nav.Link>
             </Nav>

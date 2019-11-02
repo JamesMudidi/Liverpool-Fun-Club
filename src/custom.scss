@@ -62,3 +62,27 @@ body {
   padding-right: 3px;
   padding-left: 3px;
 }
+
+.form-control {
+  height: calc(1.8em + 0.75rem + 2px);
+  border: 2px solid #ced4da;
+  font-size: 1.1rem;
+}
+
+.btn-red-red {
+  color: $white-color;
+  background: $liverpool-red;
+  border: 1px solid;
+  border-color: $liverpool-red;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  font-weight: 600;
+}
+
+.btn-red-red:hover {
+  color: $white-color;
+  background: $liverpool-red;
+  border: 1px solid;
+  border-color: $liverpool-red;
+  opacity: 0.8;
+}
