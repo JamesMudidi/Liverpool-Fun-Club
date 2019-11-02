@@ -30,6 +30,9 @@ class Header extends Component {
               <Nav.Link className="mr-sm-3 ml-sm-3" href="/contact">
                 Contact Us
               </Nav.Link>
+              <Nav.Link className="mr-sm-3 ml-sm-3" href="/about">
+                About Us
+              </Nav.Link>
               <Nav.Link
                 className="ml-sm-3"
                 target="_blank"
