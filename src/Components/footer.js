@@ -19,7 +19,7 @@ const Footer = () => {
             Contact Us
           </a>
           <a href="https://twitter.com/LFC" target="_blank" className="footer-link mr-sm-3 ml-sm-3">
-            #YWNWA
+            #YNWA
           </a>
         </div>
         <div className="footer-social" align="center">

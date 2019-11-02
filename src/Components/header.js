@@ -37,7 +37,7 @@ class Header extends Component {
                 Contact Us
               </Nav.Link>
               <Nav.Link className="ml-sm-3" target="_blank" href="https://twitter.com/LFC">
-                #YWNWA
+                #YNWA
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
