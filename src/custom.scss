@@ -126,10 +126,61 @@ body {
   left: 3rem;
 }
 
+.tile-text {
+  position: absolute;
+  top: 85%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.tile-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $white-color;
+}
+
+.tile-heading:hover {
+  color: $white-color;
+}
+
+.tile-title {
+  font-weight: 600;
+  color: $liverpool-red;
+}
+
+.tile-blade {
+  line-height: 1.1;
+  font-size: 2rem;
+  border-top: 10px solid #d4af37;
+  padding-top: 20px;
+}
+
+.card-img {
+  border-radius: 0px;
+}
+
+.card-img-overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
 // mobile css
 
 @media only screen and (max-width: 600px) {
   .carousel {
     height: 400px;
+  }
+
+  .tile-text {
+    position: absolute;
+    top: 75%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .tile-heading {
+    font-size: 1rem;
   }
 }
