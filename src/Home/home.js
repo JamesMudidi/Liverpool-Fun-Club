@@ -4,6 +4,7 @@ import Carousel from "../Components/hero";
 import Footer from "../Components/footer";
 import Stars from "../Components/stars";
 import CtaBlocks from "../Components/blocks/blocks";
+import SocialFeedBlock from "../Components/social";
 import { Container } from "react-bootstrap";
 import "./home.scss";
 
@@ -17,6 +18,7 @@ const Home = () => {
           <Stars />
         </Container>
         <CtaBlocks />
+        <SocialFeedBlock />
       </div>
       <Footer />
     </div>
