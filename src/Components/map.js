@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import MapGL, { NavigationControl, Marker, Popup } from 'react-map-gl';
-// import { Icon } from 'semantic-ui-react';
 
 const TOKEN = 'pk.eyJ1IjoibXVkaWRpIiwiYSI6ImNrMmhyY2w2NTEybGQzbXA1NGI3NzBiZGIifQ._Ombuao3cir9FFgWgE4fYg';
 const navStyle = {
@@ -12,8 +11,8 @@ const navStyle = {
 
 const markerList = [
     {
-        lat: 0.339597,
-        long: 32.587132,
+        lat:0.339340,
+        long: 32.587149,
         info: 10
     }
 ];
@@ -22,8 +21,8 @@ class Map extends Component {
         super(props);
         this.state = {
             viewport: {
-                latitude: 0.339597,
-                longitude: 32.587132,
+                latitude: 0.339340,
+                longitude: 32.587149,
                 zoom: 15,
                 bearing: 0,
                 pitch: 0,
@@ -57,7 +56,7 @@ class Map extends Component {
                 mapboxApiAccessToken={TOKEN} >
                 <div className="nav" style={navStyle}>
                     <NavigationControl onViewportChange={(viewport) => this.setState({ viewport })} />
-                    <Marker latitude={0.339597} longitude={32.587132}>
+                    <Marker latitude={0.339340} longitude={32.587149}>
                     <div>
                         <img src="images/pointer.png" alt="pointer" />
                         <strong>
