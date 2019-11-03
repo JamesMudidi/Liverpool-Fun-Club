@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
         <div className="footer-social" align="center">
           <a
-            href="/https://web.facebook.com/groups/ugkop.lfc/"
+            href="https://web.facebook.com/groups/ugkop.lfc/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -42,7 +42,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="/https://twitter.com/ug_kop"
+            href="https://twitter.com/ug_kop"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -54,7 +54,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="/https://www.instagram.com/ug_kop/"
+            href="https://www.instagram.com/ug_kop/"
             target="_blank"
             rel="noopener noreferrer"
           >
