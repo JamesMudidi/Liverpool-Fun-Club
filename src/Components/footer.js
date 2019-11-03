@@ -10,13 +10,13 @@ const Footer = () => {
             Home
           </a>
           <a href="/" className="footer-link mr-sm-3 ml-sm-3">
-            Membership
-          </a>
-          <a href="/" className="footer-link mr-sm-3 ml-sm-3">
             Committee
           </a>
           <a href="/contact" className="footer-link mr-sm-3 ml-sm-3">
             Contact Us
+          </a>
+          <a href="/about" className="footer-link mr-sm-3 ml-sm-3">
+            About Us
           </a>
           <a href="https://twitter.com/LFC" target="_blank" rel="noopener noreferrer" className="footer-link mr-sm-3 ml-sm-3">
             #YNWA
