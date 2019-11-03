@@ -4,6 +4,7 @@ import Home from "./Home/home";
 import Contact from "./Contact/contact";
 import Certificate from "./Certificate/certificate";
 import About from "./About/about";
+import NotFound from "./404";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/certificate" component={Certificate} />
           <Route path="/about" component={About} />
+          <Route component={NotFound} />
         </Switch>
       </div>
     </Router>
