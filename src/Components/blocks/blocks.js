@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import MembershipBlock from "./membership";
 import GreenCampaignBlock from "./green";
+import Events from "./events";
 
 const Blocks = () => {
   return (
@@ -14,7 +15,9 @@ const Blocks = () => {
           <div className="col-sm-4">
             <GreenCampaignBlock />
           </div>
-          <div className="col-sm-4"></div>
+          <div className="col-sm-4">
+            <Events />
+          </div>
         </div>
       </Container>
     </div>

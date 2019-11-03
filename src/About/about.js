@@ -91,6 +91,29 @@ const About = () => {
               </a>
               <br />
               <br />
+              <h2 className="block-title">
+                LFC Official International Membership
+              </h2>
+              <p>
+                Become an <strong>official member</strong> of the Liverpool
+                Football Club now to activate huge discounts valid at all LFC
+                stores and online! <br />
+                <br />
+                To learn more about LFC Memberships and to find out which pack
+                is best for you, please visit this
+                <a href="https://www.liverpoolfc.com/membership">
+                  {" "}
+                  memberships link
+                </a>
+                .
+                <br />
+                <br />
+                Please note that when you signup, you will receive an
+                <strong>International Membership gift voucher</strong> for the{" "}
+                <strong>season 2019/20</strong>. The voucher code must be
+                redeemed by the recipient in order to activate the Membership.
+              </p>
+              <br />
               <h2 className="block-title">Find Location</h2>
               <Map />
               <br />
