@@ -29,7 +29,11 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-social" align="center">
-          <a href="/">
+          <a
+            href="/https://web.facebook.com/groups/ugkop.lfc/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="images/facebook-logo.png"
               alt="facebook logo"
@@ -37,7 +41,11 @@ const Footer = () => {
               width={35}
             />
           </a>
-          <a href="/">
+          <a
+            href="/https://twitter.com/ug_kop"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="images/twitter-logo.png"
               alt="twitter logo"
@@ -45,7 +53,11 @@ const Footer = () => {
               width={37}
             />
           </a>
-          <a href="/">
+          <a
+            href="/https://www.instagram.com/ug_kop/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="images/instagram-logo.png"
               alt="instagram logo"
