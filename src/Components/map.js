@@ -1,73 +1,18 @@
-import React, { Component } from 'react'
-import MapGL, { NavigationControl, Marker, Popup } from 'react-map-gl';
+import React from "react";
 
-const TOKEN = 'pk.eyJ1IjoibXVkaWRpIiwiYSI6ImNrMmhyY2w2NTEybGQzbXA1NGI3NzBiZGIifQ._Ombuao3cir9FFgWgE4fYg';
-const navStyle = {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    padding: '10px'
+const Map = () => {
+  return (
+    <div className="location-map py-3">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15959.026801886263!2d32.6301087!3d0.3184359!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x308f5e3a70933e6b!2sArena%20Lounge!5e0!3m2!1sen!2sug!4v1572773590349!5m2!1sen!2sug"
+        width={100 + "%"}
+        height={380}
+        frameBorder={0}
+        style={{ border: 0 }}
+        allowFullScreen
+      />
+    </div>
+  );
 };
-
-const markerList = [
-    {
-        lat:0.339340,
-        long: 32.587149,
-        info: 10
-    }
-];
-class Map extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            viewport: {
-                latitude: 0.339340,
-                longitude: 32.587149,
-                zoom: 15,
-                bearing: 0,
-                pitch: 0,
-                width: "50vw",
-                height: "70vh",
-            },
-            popupInfo: null
-        };
-    }
-
-    renderPopup(index) {
-        return this.state.popupInfo && (
-            <Popup tipSize={5}
-                anchor="bottom-right"
-                longitude={markerList[index].long}
-                latitude={markerList[index].lat}
-                onMouseLeave={() => this.setState({ popupInfo: null })}
-                closeOnClick={true}>
-                <p>Available beds:{markerList[index].info}</p>
-            </Popup>
-        )
-    }
-
-    render() {
-        const { viewport } = this.state;
-        return (
-            <MapGL
-                {...viewport}
-                onViewportChange={(viewport) => this.setState({ viewport })}
-                mapStyle="mapbox://styles/mapbox/streets-v10"
-                mapboxApiAccessToken={TOKEN} >
-                <div className="nav" style={navStyle}>
-                    <NavigationControl onViewportChange={(viewport) => this.setState({ viewport })} />
-                    <Marker latitude={0.339340} longitude={32.587149}>
-                    <div>
-                        <img src="images/pointer.png" alt="pointer" />
-                        <strong>
-                            Arena Sports Lounge
-                        </strong>
-                    </div>
-                </Marker>
-                </div>
-            </MapGL>
-        );
-    }
-}
 
 export default Map;

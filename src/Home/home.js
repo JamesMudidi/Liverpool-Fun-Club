@@ -3,6 +3,7 @@ import Header from "../Components/header";
 import Carousel from "../Components/hero";
 import Footer from "../Components/footer";
 import Stars from "../Components/stars";
+import CtaBlocks from "../Components/blocks/blocks";
 import { Container } from "react-bootstrap";
 import "./home.scss";
 
@@ -11,9 +12,12 @@ const Home = () => {
     <div>
       <Header />
       <Carousel />
-      <Container>
-        <Stars />
-      </Container>
+      <div className="main py-5">
+        <Container>
+          <Stars />
+        </Container>
+        <CtaBlocks />
+      </div>
       <Footer />
     </div>
   );

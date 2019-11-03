@@ -3,9 +3,55 @@ import { Card } from "react-bootstrap";
 
 const Stars = () => {
   return (
-    <div className="stars py-5">
-      <h1 className="tile-title">Certified</h1>
-      <div className="row">
+    <div className="stars">
+      <div className="d-flex">
+        <h1 className="tile-title">Certified</h1>
+        <div className="stars-row">
+          <img
+            src="images/star.png"
+            alt=""
+            width={25}
+            height={25}
+            className="star-star"
+          />
+          <img
+            src="images/star.png"
+            alt=""
+            width={25}
+            height={25}
+            className="star-star"
+          />
+          <img
+            src="images/star.png"
+            alt=""
+            width={25}
+            height={25}
+            className="star-star"
+          />
+          <img
+            src="images/star.png"
+            alt=""
+            width={25}
+            height={25}
+            className="star-star"
+          />
+          <img
+            src="images/star.png"
+            alt=""
+            width={25}
+            height={25}
+            className="star-star"
+          />
+          <img
+            src="images/star.png"
+            alt=""
+            width={25}
+            height={25}
+            className="star-star"
+          />
+        </div>
+      </div>
+      <div className="row pb-5">
         <div className="col-sm-8">
           <div className="tile-column">
             <a href="/certificate">
@@ -30,9 +76,14 @@ const Stars = () => {
         <div className="col-sm-4">
           <h1 className="tile-blade">
             Join us for special screenings every match day at{" "}
-            <strong>Arena Sports Bar and lounge</strong>.
+            <strong>Arena Lounge, Kampala</strong>.
           </h1>
-          <a href="/about" className="btn-red-red my-5 btn btn-primary">
+          <a
+            href="https://goo.gl/maps/LdQuKpAQNV2UcVJ8A"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-red-red my-5 btn btn-primary"
+          >
             Find location
           </a>
         </div>

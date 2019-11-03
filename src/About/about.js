@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Header from "../Components/header";
 import Footer from "../Components/footer";
-import Map2 from "../Components/map"
+import Map from "../Components/map";
 import "./about.scss";
 
 const About = () => {
@@ -26,52 +26,73 @@ const About = () => {
             <div className="col-sm-2"></div>
             <div className="col-sm-8">
               <p>
-                The <strong>Official Liverpool Football Club </strong>
+                We are the{" "}
+                <strong>Official Liverpool Supporters Club (OLSCUG) </strong>
                 supporters in <strong>Uganda </strong>
-                is made up of <strong>Kopites</strong> located in Uganda.
-                Members meet at <strong>Arena Sports Bar and lounge </strong>
-                located <strong>on 8 Bukoto St, Kampala</strong> for
-                match viewing and have a bond as a family.
+                made up of resiliant and football loving{" "}
+                <strong>Kopites</strong>.
+                <br />
+                <br />
+                <a href="/certificate">See official branch certificate here.</a>
+                <br />
+                <br />
+                Members meet at <strong>Arena Lounge Bugolobi </strong>
+                located on <strong>Kireka Rd, Kampala</strong> for match viewing
+                and have a bond as a family.
               </p>
               <br />
-              <Map2 />
-            </div>
-          </div>
-          <div className="col-sm-2"></div>
-          <div className="row py-5">
-            <div className="col-sm-2"></div>
-            <div className="col-sm-8">
-              <h3>
-                <strong>Become a member today and get exclusive benefits</strong>
-              </h3>
-              <br />
+              <h2 className="block-title">Membership</h2>
               <p>
-                <h4>
-                  <strong>Membership Registration</strong>
-                </h4>
-                <strong>To join OLSCUG,</strong> you must fulfill the following:<br />
-                <ol>
-                  <li>You will need a monthly subscription fee of UShs 10,000.</li>
-                  <li>Send your your information to us and <strong>You Will Never Walk Alone</strong>.</li>
-                </ol>
-              </p>
-              <br />
-              <p>
-                <h4>
-                  <strong>Membership Benefits</strong>
-                </h4>
-                <strong>As a member of OLSCUG,</strong> you have access to the following benefits:<br />
+                Become a member today and get{" "}
+                <strong>exclusive benefits</strong>. To join{" "}
+                <strong>OLSCUG</strong>, you must fulfill the following:
+                <br />
+                <br />
                 <ol>
                   <li>
-                    Priority entry to match viewings at Arena Sports Bar and lounge
-                                        <ul>
-                      <i><li>Subject to a game-by-game agreement between OLSCUG and Arena Sports Bar and lounge</li></i>
-                      <i><li>Priority entry does NOT cover guests of members</li></i>
+                    You will need a monthly subscription fee of UShs 10,000.
+                  </li>
+                  <li>
+                    Send your your information to us and{" "}
+                    <strong>You'll Never Walk Alone</strong>.
+                  </li>
+                </ol>
+                <br />
+                <strong>Membership Benefits</strong>
+                <br />
+                <br />
+                As a member of <strong>OLSCUG</strong>, you have access to the
+                following benefits:
+                <br />
+                <br />
+                <ol>
+                  <li>
+                    Priority entry to match viewings at Arena Sports Bar and
+                    lounge.
+                    <ul>
+                      <i>
+                        <li>
+                          Subject to a game-by-game agreement between OLSCUG and
+                          Arena Sports Bar and lounge.
+                        </li>
+                      </i>
+                      <i>
+                        <li>
+                          Priority entry does NOT cover guests of members.
+                        </li>
+                      </i>
                     </ul>
                   </li>
-                  <li>Access to OLSCUG member-only events</li>
+                  <li>Access to OLSCUG member-only events.</li>
                 </ol>
               </p>
+              <a href="/contact" className="btn-red-red my-4 btn btn-primary">
+                Join Now
+              </a>
+              <br />
+              <br />
+              <h2 className="block-title">Find Location</h2>
+              <Map />
               <br />
             </div>
           </div>

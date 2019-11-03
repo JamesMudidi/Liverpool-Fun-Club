@@ -16,6 +16,14 @@ body {
   letter-spacing: 0.025rem;
 }
 
+a {
+  color: $liverpool-red;
+}
+
+a:hover {
+  color: $liverpool-red;
+}
+
 .navbar {
   background: $liverpool-red;
 }
@@ -166,11 +174,63 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
+.block-title {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: $liverpool-red;
+}
+
+.block-thumbnail {
+  border-top: 10px solid #d4af37;
+}
+
+.block-text {
+  font-size: 1.4rem;
+  padding-top: 1rem;
+  font-weight: 300;
+}
+
+.star-star {
+  padding: 2px;
+  margin-top: 10px;
+}
+
+.stars-row {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.not-found {
+  height: 550px;
+}
+
+.not-found-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.not-found-text h1 {
+  font-size: 7rem;
+  font-weight: 700;
+  color: $liverpool-red;
+}
+
+.not-found-text h3 {
+  font-weight: 600;
+}
+
 // mobile css
 
 @media only screen and (max-width: 600px) {
   .carousel {
     height: 400px;
+  }
+
+  .hero-text .hero-heading {
+    font-size: 2rem;
+    font-weight: 600;
   }
 
   .tile-text {
@@ -183,5 +243,19 @@ body {
 
   .tile-heading {
     font-size: 1rem;
+  }
+
+  .not-found {
+    height: 400px;
+  }
+  
+  .not-found-text h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: $liverpool-red;
+  }
+
+  .not-found-text h3 {
+    font-size: 1.5rem;
   }
 }
