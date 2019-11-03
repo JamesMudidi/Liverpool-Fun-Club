@@ -9,9 +9,6 @@ const Footer = () => {
           <a href="/" className="footer-link mr-sm-3 ml-sm-3">
             Home
           </a>
-          <a href="/membership" className="footer-link mr-sm-3 ml-sm-3">
-            Membership
-          </a>
           <a href="/" className="footer-link mr-sm-3 ml-sm-3">
             Committee
           </a>
