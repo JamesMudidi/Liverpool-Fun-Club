@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import MapGL, { NavigationControl, Marker, Popup } from 'react-map-gl';
-import { Icon } from 'semantic-ui-react';
+// import { Icon } from 'semantic-ui-react';
 
 const TOKEN = 'pk.eyJ1IjoibXVkaWRpIiwiYSI6ImNrMmhyY2w2NTEybGQzbXA1NGI3NzBiZGIifQ._Ombuao3cir9FFgWgE4fYg';
 const navStyle = {
@@ -57,12 +57,14 @@ class Map extends Component {
                 mapboxApiAccessToken={TOKEN} >
                 <div className="nav" style={navStyle}>
                     <NavigationControl onViewportChange={(viewport) => this.setState({ viewport })} />
-                    {markerList.map((marker, index) => {
-                        return (<div key={index} > <Marker longitude={marker.long} latitude={marker.lat}>
-                            <Icon name='Arena Bar and Sports Lounge' size='big' onMouseEnter={() => this.setState({ popupInfo: true })} onMouseLeave={() => this.setState({ popupInfo: null })} />
-                        </Marker> {this.renderPopup(index)}</div>);
-                    }
-                    )}
+                    <Marker latitude={0.339597} longitude={32.587132}>
+                    <div>
+                        <img src="images/pointer.png" alt="pointer" />
+                        <strong>
+                            Arena Sports Lounge
+                        </strong>
+                    </div>
+                </Marker>
                 </div>
             </MapGL>
         );
