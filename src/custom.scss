@@ -221,6 +221,19 @@ a:hover {
   font-weight: 600;
 }
 
+.crt-post .crt-post-text {
+  font-size: 0.9em;
+}
+
+.crt-post-username {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: .8em;
+  /* text-transform: uppercase; */
+  display: none;
+}
+
 // mobile css
 
 @media only screen and (max-width: 600px) {
