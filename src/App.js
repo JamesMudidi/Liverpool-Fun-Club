@@ -5,6 +5,7 @@ import Home from "./Home/home";
 import Contact from "./Contact/contact";
 import Certificate from "./Certificate/certificate";
 import About from "./About/about";
+import Gallery from "./Gallery/gallery";
 import GreenCampaign from "./GreenCampaign/green";
 import NotFound from "./404";
 
@@ -26,6 +27,7 @@ export default function App() {
                   <Route path="/contact" component={Contact} />
                   <Route path="/certificate" component={Certificate} />
                   <Route path="/about" component={About} />
+                  <Route path="/gallery" component={Gallery} />
                   <Route path="/green-campaign" component={GreenCampaign} />
                   <Route component={NotFound} />
                 </Switch>

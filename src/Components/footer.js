@@ -18,7 +18,9 @@ const Footer = () => {
           <a href="/contact" className="footer-link mr-sm-3 ml-sm-3">
             Contact Us
           </a>
-
+          <a href="/gallery" className="footer-link mr-sm-3 ml-sm-3">
+            Gallery
+          </a>
           <a
             href="https://twitter.com/LFC"
             target="_blank"
