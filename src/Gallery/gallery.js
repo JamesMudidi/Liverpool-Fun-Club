@@ -51,7 +51,7 @@ const Gallery = () => {
         <div>
             <Header />
             <DztImageGalleryComponent
-                images={data} />
+                images={data} hideRotate="true" hideDownload="true"/>
             <Footer />
         </div>
     );
